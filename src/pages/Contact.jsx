@@ -45,6 +45,7 @@ const Contact = () => {
         await new Promise((resolve) => setTimeout(resolve, 1000));
         alert("Your message has been sent successfully!");
         setFormData({ name: '', email: '', message: '' });
+      // eslint-disable-next-line no-unused-vars
       } catch (error) {
         alert("Oops! Something went wrong.");
       } finally {
@@ -181,7 +182,7 @@ const Contact = () => {
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+          
           ></iframe>
         </div>
       </div>
