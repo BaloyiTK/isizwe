@@ -1,18 +1,3 @@
-const programs = [
-  {
-    title: "Character Development and Emotional Wellness",
-    description:
-      "We develop comprehensive educational programs focused on building character, nurturing emotional and psychological wellness, and providing a positive outlook for the future. These programs are designed to empower male learners to become the ideal men and leaders of tomorrow.",
-    imageUrl:
-      "https://zxcvbnmikelblog.wordpress.com/wp-content/uploads/2017/01/mental-health.png",
-  },
-  {
-    title: "ICT Skills, Coding & Robotics",
-    description:
-      "We provide learners with crucial Information, Communication, and Technology skills, teach them coding and robotics, and prepare them for the digital economy. This phase is vital for enhancing employability and igniting entrepreneurial sparks in young minds.",
-    imageUrl:
-      "https://cdn1.expresscomputer.in/wp-content/uploads/2023/06/27150812/EC_digital_tablet_screen_futuristic_technology_750.jpg",
-  }]
 const Programs = () => {
   return (
     <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-20">
