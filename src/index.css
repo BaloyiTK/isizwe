@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gallery-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Ensures the image stretches to the full width of the container */
+    height: 90%; /* Maintains the image aspect ratio */
+    object-fit: cover;
+    padding: 2%; /* Optional, for better cropping behavior */
+  }
+  
+  .slick-dots {
+    bottom: -20px; /* Adjusts the positioning of the dots */
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+  
+footer {
+  font-family: 'Roboto', sans-serif; /* Use body font for footer */
+  font-size: 14px; /* Slightly smaller font for footer */
+  color: #777; /* Lighter color for footer text */
+}
+
+.slick-next, .slick-prev {
+  background-color: gray !important;
+}
+
+.image-container {
+  aspect-ratio: 16 / 9;
+}
+
